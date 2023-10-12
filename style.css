@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    
+}
+
+.background {
+    background-image: url('hatter.jpg'); 
+    background-size: cover;
+    
+    opacity: 0.5;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-drag: none;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+@media screen and (max-width: 600px) {
+    .background {
+        background-image: url('hatter.jpg'); 
+        
+    }
+}
+
+
+button {
+    
+    background-color: black;
+    color: #fff;
+    font-size: 24px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+   
+}
+
+
+
+#vasarlasOldal {
+    display: none;
+    
+}
+h1{
+    font-family: 'Allura';
+    font-size: 50px;
+}
+.centered {
+    color: black;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    font-size: 40px;
+    transform: translate(-50%, -50%);
+    font-family: 'Allura', cursive;
+    font-weight: bold;
+    opacity: 1;
+    -webkit-user-drag: none;
+    overflow: hidden;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+  @media screen and (max-width: 600px) {
+    .centered h1 {
+      font-size: 40px; /* Állítsd be a kívánt betűméretet */
+    }
+  }
+
+  .container {
+    position: relative;
+    text-align: center;
+    color: black;
+  }
+  header {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    background-color: rgb(225, 135, 194);       
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.termek {
+    border: 5px solid black;
+    padding: 10px;
+    text-align: center;
+    max-width: 300px;
+    margin: 10px; /* Adj hozzá térközt a termékek között */
+}
+
+@media screen and (max-width: 600px) {
+    .termek {
+        max-width: 100%; /* Teljes szélességű a kisebb képernyőkön */
+    }
+}
+
+.termek img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+p{
+    font-size: larger;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px) {
+    .centered {
+      font-size: 24px;
+    }
+}
+
+#vasarlasButton {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 20px;
+}
